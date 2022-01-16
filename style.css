@@ -211,7 +211,7 @@ footer {
   /* nav starts */
   nav {
     display: flex;
-
+width: 100%;
     justify-content: space-between;
   }
   .nav-menu ul {
@@ -233,11 +233,13 @@ footer {
     color: black;
     font-weight: 400;
   }
-
+  /* .nav-details {
+    position: relative;
+  } */
   .nav-details h3 {
     position: absolute;
     left: 130px;
-    top: 20px;
+    top: 20px; 
   }
   .nav-menu ul li.special {
     display: block;
